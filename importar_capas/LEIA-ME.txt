@@ -1,0 +1,20 @@
+PASTA DE IMPORTAÇÃO DE CAPAS
+============================
+1. Coloque aqui as imagens baixadas (.jpg, .jpeg, .png ou .webp).
+2. No sistema, clique em "Importar capas" e depois em "Importar agora".
+3. Os originais usados vão para a subpasta "_processadas" (fica de backup).
+   Os arquivos não reconhecidos continuam aqui, e o sistema diz o motivo.
+
+COMO NOMEAR OS ARQUIVOS
+-----------------------
+- Pelo ID (mais seguro, sempre único):  id-12.jpg   ou   id-12 Watchmen.jpg
+  Em "Importar capas" há o botão "Baixar lista de itens sem capa (CSV)",
+  que já traz o nome de arquivo sugerido para cada item.
+- Pelo título exato:  Watchmen.jpg
+  Título repetido em várias edições? Acrescente a edição: Arlequina 1.jpg
+  Também vale título + subtítulo, ou o ISBN.
+
+DICAS
+- Se o item já tinha capa, ela é substituída pela nova.
+- As imagens são reduzidas (900 px) e convertidas para JPEG quando o módulo
+  "sharp" está instalado (o npm install já tenta instalá-lo).
